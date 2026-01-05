@@ -159,7 +159,7 @@ Ce projet est libre de réutilisation et modification.
 ---
 ## 🎇 Image de l'application
 
-![image du projet](public/image.jpg)
+![image du projet](./public/image.jpg)
 
 ---
 
