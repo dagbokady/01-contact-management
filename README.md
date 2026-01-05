@@ -157,6 +157,11 @@ Vous pouvez contribuer à ce projet pour proposer des améliorations ou corriger
 Ce projet est libre de réutilisation et modification.
 
 ---
+## 🎇 Image de l'application
+
+![image du projet](public/image.jpg)
+
+---
 
 ## ✉️ Contact
 
