@@ -1,0 +1,31 @@
+/* contact-list.css */
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 50%;
+    max-height: 70vh;      /* hauteur max de la liste */
+    overflow-y: auto;
+    padding-right: 6px;
+}
+
+/* Scrollbar propre (Chrome, Edge, Safari) */
+.contact-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.contact-list::-webkit-scrollbar-thumb {
+    background: #c7cdd6;
+    border-radius: 10px;
+}
+
+.contact-list::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+}
+
+.empty-state {
+    text-align: center;
+    color: #6b7280;
+    font-size: 14px;
+    padding: 20px;
+}

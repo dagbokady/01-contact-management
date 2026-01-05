@@ -1,0 +1,84 @@
+/* contact-item.css */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap:4px;
+    padding: 10px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    margin-bottom: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #e5e7eb;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h3 {
+    margin: 0;
+    font-size: 10px;
+    color: #111827;
+}
+
+.contact-info p {
+    margin: 2px 0;
+    font-size: 9px;
+    color: #4b5563;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 2px;
+    padding: 1px 3px;
+    border-radius: 999px;
+    font-size: 8px;
+    font-weight: 600;
+    color: white;
+}
+.badge-famille {
+    background: #f59e0b;
+}
+
+.badge-travail {
+    background: #2563eb;
+}
+
+.badge-amis {
+    background: #10b981;
+}
+
+.badge-clients {
+    background: #8b5cf6;
+}
+
+.badge-autres {
+    background: #6b7280;
+}
+
+.btn-delete {
+    background: #ef4444;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.btn-delete:hover {
+    background: #dc2626;
+}
